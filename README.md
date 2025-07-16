@@ -18,9 +18,14 @@ Welcome to the repository for my Nano Processor project, implemented using VHDL 
 
 ## Overview
 
-This project demonstrates the complete design of a 4-bit Nano Processor from the ground up using VHDL, deployable on a Basys3 FPGA board. It features an enhanced ALU that supports addition, subtraction, bitwise logic, multiplication, and comparison. A modular instruction decoder processes an updated instruction format.
+This project demonstrates the complete design of a 4-bit Nano Processor from the ground up using VHDL...
 
----
+### 🔷 General Architecture
+
+![Nano Processor Block Diagram](./images/nano_processor_block_diagram.png)
+
+*A high-level view of the Nano Processor architecture showing interconnection between PC, ROM, Decoder, ALU, and Registers.*
+
 
 ## Reset and Clock Controls
 
