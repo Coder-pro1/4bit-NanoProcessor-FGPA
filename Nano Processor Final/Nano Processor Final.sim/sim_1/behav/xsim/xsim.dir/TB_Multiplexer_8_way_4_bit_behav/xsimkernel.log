@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_Multiplexer_8_way_4_bit_behav/xsimk.exe -simmode gui -wdb TB_Multiplexer_8_way_4_bit_behav.wdb -simrunnum 0 -socket 55498
+Design successfully loaded
+Design Loading Memory Usage: 8356 KB (Peak: 8356 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 8936 KB (Peak: 8936 KB)
+Simulation CPU Usage: 77 ms

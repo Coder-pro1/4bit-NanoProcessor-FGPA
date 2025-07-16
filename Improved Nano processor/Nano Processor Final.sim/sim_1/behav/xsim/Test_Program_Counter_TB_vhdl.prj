@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Nano Processor Final.srcs/sources_1/new/Full_Adder.vhd" \
+"../../../../Nano Processor Final.srcs/sources_1/new/Half_Adder.vhd" \
+"../../../../Nano Processor Final.srcs/sources_1/new/Multiplexer_2_way_3_bit.vhd" \
+"../../../../Nano Processor Final.srcs/sources_1/new/Program_Counter.vhd" \
+"../../../../Nano Processor Final.srcs/sources_1/new/RC_3.vhd" \
+"../../../../Nano Processor Final.srcs/sources_1/new/Test_Program_Counter.vhd" \
+"../../../../Nano Processor Final.srcs/sim_1/new/Test_Program_Counter_TB.vhd" \
+
+# Do not sort compile order
+nosort

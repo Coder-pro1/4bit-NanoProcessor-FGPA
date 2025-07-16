@@ -1,0 +1,35 @@
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity Instruction_Decoder is
+    Port (Instruction : in STD_LOGIC_VECTOR (11 downto 0);
+          Chk_Jmp : in STD_LOGIC_VECTOR (3 downto 0);
+          En_reg : out STD_LOGIC_VECTOR (2 downto 0);
+          MUX_1 : out STD_LOGIC_VECTOR (2 downto 0);
+          MUX_2 : out STD_LOGIC_VECTOR (2 downto 0);
+          Jmp : out STD_LOGIC;
+          ALU_in : out STD_LOGIC_vector(3 downto 0);
+          Im_Val : out STD_LOGIC_VECTOR (3 downto 0);
+          Load_Sel : out STD_LOGIC;
+          Jmp_Add :  out STD_LOGIC_VECTOR (2 downto 0)
+          );
+         
+end Instruction_Decoder;
+
+architecture Behavioral of Instruction_decoder is
+
+
+begin
+
+MUX_1 <= Instruction (9 downto 7);
+MUX_2 <= Instruction (6 downto 4);
+ALU_in <= Instruction (3 downto 0) when Instruction(11 downto 10) = "00"; 
+Load_Sel <= Instruction(11);
+Jmp <= '1' when Chk_Jmp = "0000" and Instruction(11 downto 10) = "11" else '0';
+En_Reg <= Instruction (9 downto 7);
+Jmp_add <= Instruction (2 downto 0);
+Im_Val <= Instruction(3 downto 0);
+
+end Behavioral;

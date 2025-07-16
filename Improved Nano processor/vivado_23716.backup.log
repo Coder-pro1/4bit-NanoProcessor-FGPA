@@ -1,0 +1,445 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed May 21 13:58:53 2025
+# Process ID: 23716
+# Current directory: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13688 C:\Users\ASUS\Downloads\Nano Processor board\Nano Processor Final\Nano Processor Final\Nano Processor Final.xpr
+# Log file: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/vivado.log
+# Journal file: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final'
+INFO: [Project 1-313] Project file moved from 'C:/Users/Kalana/Downloads/Nano Processor Final/Nano Processor Final' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 856.469 ; gain = 113.742
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processor_Testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Processor_Testbench_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/LUT_16_7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Multiplexer_2_way_3_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplexer_2_way_3_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Multiplexer_2_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplexer_2_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Multiplexer_4_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplexer_4_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Multiplexer_8_way_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplexer_8_way_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Program_Counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Program_Rom.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Rom
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/RCAS_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCAS_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/RC_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RC_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Register_4_bit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_4_bit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Register_Bank.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sim_1/new/TB_Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor_Testbench
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 860.305 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f5385afde441446a984f1353d6225fa9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processor_Testbench_behav xil_defaultlib.Processor_Testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Clock [clock_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_2_way_4_bit [multiplexer_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_4_bit [register_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_4_way_4_bit [multiplexer_4_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_8_way_4_bit [multiplexer_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCAS_4 [rcas_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.RC_3 [rc_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_2_way_3_bit [multiplexer_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture tb of entity xil_defaultlib.processor_testbench
+Built simulation snapshot Processor_Testbench_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 860.305 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processor_Testbench_behav -key {Behavioral:sim_1:Functional:Processor_Testbench} -tclbatch {Processor_Testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Processor_Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processor_Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 874.379 ; gain = 14.074
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processor_Testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Processor_Testbench_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/sim_1/new/TB_Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor_Testbench
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f5385afde441446a984f1353d6225fa9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processor_Testbench_behav xil_defaultlib.Processor_Testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Clock [clock_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Rom [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_2_way_4_bit [multiplexer_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_4_bit [register_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_4_way_4_bit [multiplexer_4_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_8_way_4_bit [multiplexer_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCAS_4 [rcas_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.RC_3 [rc_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplexer_2_way_3_bit [multiplexer_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_Counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture tb of entity xil_defaultlib.processor_testbench
+Built simulation snapshot Processor_Testbench_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processor_Testbench_behav -key {Behavioral:sim_1:Functional:Processor_Testbench} -tclbatch {Processor_Testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Processor_Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processor_Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 904.387 ; gain = 2.480
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new
+file mkdir C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1
+file mkdir {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new}
+close [ open {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new/Processor_XDC.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.srcs/constrs_1/new/Processor_XDC.xdc}}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Processor_Testbench' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Processor_Testbench_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f5385afde441446a984f1353d6225fa9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Processor_Testbench_behav xil_defaultlib.Processor_Testbench -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Processor_Testbench_behav -key {Behavioral:sim_1:Functional:Processor_Testbench} -tclbatch {Processor_Testbench.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Processor_Testbench.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Processor_Testbench_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 912.359 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed May 21 14:21:46 2025] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 21 14:22:29 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1751.184 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1751.184 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:24 . Memory (MB): peak = 1815.637 ; gain = 887.109
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 21 14:24:26 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.2
+  **** Build date : Jun 14 2018-20:42:52
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8A97EA
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8A97EA
+report_utilization -name utilization_1
+report_utilization: Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 2490.090 ; gain = 0.004
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8A97EA
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed May 21 14:55:35 2025] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 21 14:56:52 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 21 14:59:33 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+close_design
+close_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2504.809 ; gain = 0.000
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed May 21 15:06:16 2025] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 21 15:07:44 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.463 . Memory (MB): peak = 2507.348 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.464 . Memory (MB): peak = 2507.348 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 2568.617 ; gain = 63.809
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 21 15:09:58 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Wed May 21 15:20:31 2025] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed May 21 15:21:50 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Wed May 21 15:24:01 2025] Launched impl_1...
+Run output will be captured here: C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/ASUS/Downloads/Nano Processor board/Nano Processor Final/Nano Processor Final/Nano Processor Final.runs/impl_1/Processor.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A8A97EA
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2568.617 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 21 15:29:46 2025...
