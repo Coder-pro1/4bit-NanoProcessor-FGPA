@@ -1,0 +1,9 @@
+# Force GitHub to count VHDL files as VHDL
+*.vhd linguist-language=VHDL
+*.vhdl linguist-language=VHDL
+
+# Ignore simulation object files
+*.c linguist-detectable=false
+*.h linguist-detectable=false
+*.o linguist-detectable=false
+*.obj linguist-detectable=false
