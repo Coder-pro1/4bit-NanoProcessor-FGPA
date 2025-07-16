@@ -22,7 +22,7 @@ This project demonstrates the complete design of a 4-bit Nano Processor from the
 
 ### 🔷 General Architecture
 
-![Nano Processor Block Diagram](./images/nano_processor_block_diagram.png)
+![Nano Processor Block Diagram](./images/nano_block_diagram.png)
 
 *A high-level view of the Nano Processor architecture showing interconnection between PC, ROM, Decoder, ALU, and Registers.*
 
