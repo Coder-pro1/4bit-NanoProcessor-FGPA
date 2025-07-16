@@ -20,9 +20,11 @@ Welcome to the repository for my Nano Processor project, implemented using VHDL 
 
 This project demonstrates the complete design of a 4-bit Nano Processor from the ground up using VHDL...
 
-### 🔷 General Architecture
+### 🔷 Basic Processor Architecture
 
 ![Nano Processor Block Diagram](./images/nano_block_diagram.png)
+
+In the improved processor, the add-sub unit is improved to an Arithmetic and Logic Unit 
 
 *A high-level view of the Nano Processor architecture showing interconnection between PC, ROM, Decoder, ALU, and Registers.*
 
